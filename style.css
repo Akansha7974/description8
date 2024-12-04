@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://i.pinimg.com/736x/0e/8f/ea/0e8fea0ac6f997c90a626e77196bf32d.jpg);
+}
+h1{
+    font-size: 80px;
+    letter-spacing: 8px;
+    text-align: center;
+    animation-name: glow;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+   font-family: "Londrina Shadow", sans-serif;
+    color: pink;
+    padding-top: 20px;
+}
+@keyframes glow {
+    from{
+        text-shadow: 8px 8px 12px rgb(207, 33, 91);
+    }
+    to{
+        text-shadow: 8px 8px 12px palevioletred;
+    }
+}
+ div{
+    height: 70%;
+    width: 55%;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 5px solid white;
+ }
+ h2{
+    text-align: center;
+    letter-spacing: 8px;
+    color: white;
+    padding-top: 15px;
+ }
+ button{
+    background-color: white;
+    padding: 15px 20px;
+    margin: auto;
+    display: block;
+    font-weight: 600;
+    border: none;
+    margin-top: 20px;
+ }
+ h4{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 24px;
+    letter-spacing: 5px;
+ }
